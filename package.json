@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Daniel de Jong's webdeveloper portfolio",
+  "main": "server/server.js",
+  "engines": {"node": "10.12.0"},
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "test"
+  },
+  "keywords": [
+    "portfolio",
+    "daniel",
+    "de",
+    "jong"
+  ],
+  "author": "Daniel de Jong",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.11"
+  }
+}

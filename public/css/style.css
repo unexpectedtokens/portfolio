@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Muli", Arial, sans-serif;
+}
+body {
+  background-color: #000;
+}
+li {
+  list-style: none;
+}
+/*
+LANDING SECTION
+*/
+.sm-navbar-icon {
+  display: inline-block;
+  z-index: 15;
+  position: absolute;
+  padding: 16px;
+  font-size: 200%;
+  cursor: pointer;
+  left: 3%;
+}
+.landing {
+  position: relative;
+}
+header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../media/asphalt-bitumen-black-and-white-1038935.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  float: left;
+  position: relative;
+}
+
+.title-cont {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.title-cont h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 250%;
+  text-align: center;
+}
+
+.title-cont h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 100%;
+  text-align: center;
+}
+
+.title-cont h1,
+.title-cont h2 {
+  font-family: "Righteous", cursive, "muli", sans-serif;
+}
+.hamburger {
+  transition: font-size 0.3s ease-in-out;
+}
+.hamburger:hover {
+  font-size: 110%;
+}
+.ol-nav {
+  position: absolute;
+  height: 100vh;
+  width: 0;
+  z-index: 900;
+  transition: 0.7s;
+  background-color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  padding-top: 120px;
+  overflow-x: hidden;
+}
+
+.ol-nav a {
+  color: #5a5a5a;
+  transition: color 0.5s ease, opacity 0.5s, font-size 0.5s;
+  cursor: pointer;
+  display: block;
+  font-size: 170%;
+  padding: 8px;
+  opacity: 0%;
+}
+.ol-nav a:hover {
+  color: #fefefe;
+  font-size: 180%;
+  z-index: 10;
+}
+.close-nav {
+  position: absolute;
+  top: 0%;
+  right: 3%;
+  color: #5a5a5a;
+  font-size: 250%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.close-nav:hover {
+  color: #fefefe;
+}

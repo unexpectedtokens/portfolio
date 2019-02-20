@@ -1,0 +1,14 @@
+@media (max-width: 940px) {
+}
+@media (max-width: 850px) {
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 485px) {
+  .title-cont h1 {
+    font-size: 200%;
+  }
+  .title-cont h2 {
+    font-size: 100%;
+  }
+}
