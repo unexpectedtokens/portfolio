@@ -1,14 +1,15 @@
-@media (max-width: 940px) {
+@media (max-width: 1199px) {
 }
-@media (max-width: 850px) {
+@media (max-width: 991px) {
 }
-@media (max-width: 576px) {
-}
-@media (max-width: 485px) {
+@media (max-width: 767px) {
   .title-cont h1 {
-    font-size: 200%;
+    font-size: 2em;
   }
   .title-cont h2 {
-    font-size: 100%;
+    font-size: 1em;
+  }
+  .hamburger {
+    font-size: 1em;
   }
 }
