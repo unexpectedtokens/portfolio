@@ -23,7 +23,9 @@ window.addEventListener("load", () => {
     close.style.opacity = 0;
   });
   home.addEventListener("click", () => {
-    console.log("home");
+    about.style.display = "none";
+    work.style.display = "none";
+    contact.style.display = "none";
   });
   about.addEventListener("click", () => {
     console.log("home");
