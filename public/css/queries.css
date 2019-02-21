@@ -1,6 +1,9 @@
 @media (max-width: 1199px) {
 }
 @media (max-width: 991px) {
+  .about-container {
+    margin-top: 15%;
+  }
 }
 @media (max-width: 767px) {
   .title-cont h1 {
@@ -11,5 +14,8 @@
   }
   .hamburger {
     font-size: 1em;
+  }
+  .about-container {
+    margin-top: 20%;
   }
 }

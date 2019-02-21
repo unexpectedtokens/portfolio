@@ -14,6 +14,12 @@ body {
 li {
   list-style: none;
 }
+section {
+  width: 100vw;
+  height: 100vh;
+  float: left;
+  position: relative;
+}
 /*
 LANDING SECTION
 */
@@ -29,15 +35,12 @@ LANDING SECTION
 .landing {
   position: relative;
 }
-header {
-  height: 100vh;
+.landing {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../media/asphalt-bitumen-black-and-white-1038935.jpg");
   background-size: cover;
   background-position: center;
-  width: 100vw;
-  float: left;
-  position: relative;
+  /* background-color: #9a907e; */
 }
 
 .title-cont {
@@ -45,16 +48,15 @@ header {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+  color: white;
 }
 .title-cont h1 {
-  color: white;
   text-transform: uppercase;
   font-size: 250%;
   text-align: center;
 }
 
 .title-cont h2 {
-  color: white;
   text-transform: uppercase;
   font-size: 100%;
   text-align: center;
@@ -70,6 +72,7 @@ header {
 .hamburger:hover {
   font-size: 110%;
 }
+/*navbar*/
 .ol-nav {
   position: absolute;
   height: 100vh;
@@ -107,4 +110,25 @@ header {
 }
 .close-nav:hover {
   color: #fefefe;
+}
+/*section about*/
+.section-about,
+.section-work,
+.section-contact {
+  background-image: radial-gradient(
+    circle farthest-corner at 6.7% 22.9%,
+    rgba(53, 62, 75, 1) 0%,
+    rgba(187, 187, 187, 1) 96.6%
+  );
+}
+.about-container {
+  background-color: rgba(0, 0, 0, 0.514);
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 10%;
+  color: #a5a5a5;
+  padding: 30px;
+}
+.about-container h3,
+.about-container p {
 }
